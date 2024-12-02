@@ -18,9 +18,13 @@ sudo cp $HOME/emulab_scripts_and_files/postgresql.conf /etc/postgresql/14/main/p
 
 sudo cp $HOME/emulab_scripts_and_files/pg_hba.conf /etc/postgresql/14/main/pg_hba.conf 
 
-echo "exit, log back in, and 'systemctl restart postgresql'"
+echo "WARNING WARNING WARNING WARNING WARNING WARNING WARNING"
+echo "If database is not working, exit, log back in, and 'systemctl restart postgresql'"
+echo "WARNING WARNING WARNING WARNING WARNING WARNING WARNING"
 
 sudo systemctl restart postgresql
+
+sudo chmod 777 /var/run/postgresql
 
 
 
