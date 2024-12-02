@@ -2,10 +2,11 @@
 
 
 
-cd $HOME
 
+sudo apt update
 sudo apt install openjdk-21-jdk
 
+cd $HOME
 # https://github.com/cmu-db/benchbase
 git clone --depth 1 https://github.com/cmu-db/benchbase.git
 cd benchbase

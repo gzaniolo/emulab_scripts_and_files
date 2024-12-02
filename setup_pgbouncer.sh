@@ -1,7 +1,7 @@
 
 
 
-
+sudo apt update
 sudo apt install libtool
 sudo apt install libevent-dev
 sudo apt install pkg-config
