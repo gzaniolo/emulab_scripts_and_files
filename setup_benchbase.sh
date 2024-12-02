@@ -4,7 +4,7 @@
 
 
 sudo apt update
-sudo apt install openjdk-21-jdk
+sudo apt install -y openjdk-21-jdk
 
 cd $HOME
 # https://github.com/cmu-db/benchbase

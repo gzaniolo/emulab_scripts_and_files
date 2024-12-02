@@ -2,11 +2,11 @@
 
 
 sudo apt update
-sudo apt install libtool
-sudo apt install libevent-dev
-sudo apt install pkg-config
-sudo apt install libssl-dev
-sudo apt install pandoc
+sudo apt install -y libtool
+sudo apt install -y libevent-dev
+sudo apt install -y pkg-config
+sudo apt install -y libssl-dev
+sudo apt install -y pandoc
 
 cd $HOME
 git clone https://github.com/pgbouncer/pgbouncer.git
