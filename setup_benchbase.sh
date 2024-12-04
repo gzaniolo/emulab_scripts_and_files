@@ -1,16 +1,13 @@
-
-
-
-
-
 sudo apt update
 sudo apt install -y openjdk-21-jdk
 
 cd $HOME
 # https://github.com/cmu-db/benchbase
 git clone --depth 1 https://github.com/cmu-db/benchbase.git
+
 cd benchbase
 ./mvnw clean package -P postgres
+
 cd target && 
 tar xvzf benchbase-postgres.tgz
 
