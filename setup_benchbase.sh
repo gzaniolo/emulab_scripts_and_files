@@ -11,9 +11,9 @@ cd $HOME
 # cd target && 
 # tar xvzf benchbase-postgres.tgz
 
-cp $HOME/emulab_scripts_and_files/sample_tpcc_config_single_pgb.xml /proj/cmu/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_single_pgb.xml
-cp $HOME/emulab_scripts_and_files/sample_tpcc_config_multi.xml /proj/cmu/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_multi.xml
-cp $HOME/emulab_scripts_and_files/sample_tpcc_config_multi_pgb.xml /proj/cmu/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_multi_pgb.xml
+sudo cp $HOME/emulab_scripts_and_files/sample_tpcc_config_single_pgb.xml /proj/cmu712/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_single_pgb.xml
+sudo cp $HOME/emulab_scripts_and_files/sample_tpcc_config_multi.xml /proj/cmu712/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_multi.xml
+sudo cp $HOME/emulab_scripts_and_files/sample_tpcc_config_multi_pgb.xml /proj/cmu712/benchbase/target/benchbase-postgres/config/postgres/sample_tpcc_config_multi_pgb.xml
 
 
 
