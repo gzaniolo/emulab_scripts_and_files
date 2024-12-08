@@ -12,11 +12,11 @@ cd $HOME
 # running it for the first time
 # rm -rf pgboring/
 
-git clone https://github.com/svaderia/pgboring.git
+# git clone https://github.com/svaderia/pgboring.git
 
 cd pgboring
-git submodule init
-git submodule update
+# git submodule init
+# git submodule update
 ./autogen.sh
 ./configure
 
