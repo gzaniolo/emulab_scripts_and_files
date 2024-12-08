@@ -10,7 +10,7 @@ When creating a test for a single machine, use the "test" profile.
 
 ### Multi Machine case:
 
-When creating a test where you want to have the database on one machine, the proxy on the second, and the client on the third, use the "pgbouncer_topo" profile.
+When creating a test where you want to have the database on one machine, the proxy on the second, and the client on the third, use the "new_multi_topo" profile.
 
 ## Initialize components
 
